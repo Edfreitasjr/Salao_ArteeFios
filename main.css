@@ -1,0 +1,229 @@
+body{
+    font-family: 'Roboto', sem serifa;
+    color: #1f1e1e;
+}
+
+a:link, a:active, a:visited {
+    color: #1f1e1e;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration:  underline;
+}
+
+.linha{
+    width: 960px; /*largura toral da linha*/
+    margin: 0 auto; /*para centralizar o conteúdo = 0 (cima e baixo) e auto (direita esquerda)*/
+    overflow: auto; /*ajuda a gerenciar o conteudo que passar a borda. passar fora das nossas linhas*/
+    padding: 5px 0; 
+}
+
+.coluna{
+    padding: 0 10px;
+    float: left; /* para ficar alinhado e não correr o risco de ficar empilhado as colunas*/
+}
+.col1{
+    width: 135px;
+}
+.col2{
+    width: 140px; /*60px da col1 mais 80px*/
+}
+.col3{
+    width: 160px;
+}
+.col4{
+    width: 300px;
+}
+.col5{
+    width: 380px;
+}
+.col6{
+    width: 460px;
+}
+.col7{
+    width: 540px;
+}
+.col8{
+    width: 620px;
+}
+.col9{
+    width: 700px;
+}
+.col10{
+    width: 780px;
+}
+.col11{
+    width: 860px;
+}
+.col12{
+    width: 940px;
+}
+
+.sem-padding{
+    padding: 0 !important;
+}
+
+.sem-margin{
+    padding: 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 500; /*peso (intensidade/negrito) da fonte*/
+    margin: 15px 0 10px 0;
+}
+
+.home{
+    font-weight: 500;
+    font-size: 35px;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sobre{
+    font-size: 18px;
+    text-align: justify;
+}
+
+ul li, ol li{
+    margin-bottom: 5px;
+}
+
+ul.inline li, ol.inline li {
+    display: inline;
+    margin-right: 15px;
+}
+ul.inline li:last-child, ol.inline li:last-child { /*usa esse comando do last-child para que o ultimo link não fique com a margin-rigth 15px e ultrapasse os limites da pagina*/
+    margin-right: 0px;
+}
+
+ul.sem-marcador, ol.sem-marcador{
+    list-style: none;
+}
+
+input.botao{
+    background: #192735;
+    padding: 5px 10px;
+    border-radius: 3px; /*serve para arredondar as bordas*/
+    color: #ebeebe;
+    cursor: pointer;
+    margin: 5px 0;
+    display: inline-block; /*em linha mas em bloco*/
+    border: none;
+}
+
+input.botao:hover{
+    background: #1f3142;
+    text-decoration: none;
+}
+
+/*das imagens*/
+img {
+    max-width: 100%;
+    height: 560px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+/*do Layout do site*/
+.header{
+    background: #6a7279;
+}
+.logo{
+    font-weight: 500;
+    color:#041322;
+    letter-spacing: -2px;
+}
+
+.menu{
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 30px;
+    color: #041322;
+}
+
+.menu li a{
+    margin: 5px 10px;
+    border-radius: 3px;
+}
+
+.menu li a:hover {
+    text-decoration: none;
+    background: #041322;
+    color: #ebebeb;
+}
+
+.container{
+    background: #9da0a1;
+}
+
+.contato label{
+    display: block;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.contato input, .contato textarea{
+    display: block;
+    margin-bottom: 15px;
+    padding: 5px 2%;
+    width: 96%;
+}
+
+.contato textarea{
+    height: 150px;
+}
+
+.contato input.botao{
+    width: auto;
+}
+
+iframe, .servico{
+    max-width: 100%;
+    height: 250px;
+}
+
+.photo{
+    width: 620px;;
+}
+.coluna .col1 img{
+    max-width: 100%;
+    height: 180px;
+    margin-bottom: 0;
+    margin-top: 60px;
+}
+
+img .photo{
+    max-width: 100%;
+    height: 200px;
+}
+
+section .photo{
+    width: 70px;
+}
+
+.galeria img{
+    max-width: 100%;
+    height: 250px;
+    padding: 10px;
+}
+
+.card{
+    margin-top: 0;
+    font-size: 13px;
+    text-align: center;
+}
+
+.procedimentos{
+    font-size: 30px;
+}
+
+.footer{
+    background: #6c7780;
+    color: #1f1e1e;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 100;
+}
+
